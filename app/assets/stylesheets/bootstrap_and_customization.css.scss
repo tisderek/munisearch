@@ -1,1 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
+
+$body-bg:   								#ecf0f1;
+$font-family-sans-serif:		'Open Sans', sans-serif;
+// $btn-default-bg:										#f1c40f;
+
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
