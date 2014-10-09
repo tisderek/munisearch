@@ -25,6 +25,8 @@ gem 'jbuilder', '~> 1.2'
 # Use Bootstrap for easy formatting and style
 gem 'bootstrap-sass'
 
+gem 'paperclip', '~> 4.2'
+
 group :development, :test do
      gem 'sqlite3'
 end

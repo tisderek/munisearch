@@ -1,11 +1,49 @@
-<p>This is where the temporary Muni descriptives page will go</p>
+<!-- Issuer Name -->
+<div class="page-header">
+	<h1>NEW YORK CITY G.O. SERIES A-2015 <small> 649034XY2</small></h1>
+</div>
 
-<p>Bacon ipsum dolor sit amet turkey spare ribs strip steak tri-tip pork chop. Pork belly ribeye beef ribs chicken biltong. Short ribs ham hock corned beef fatback biltong ham porchetta. Pancetta pork belly drumstick, chicken kielbasa fatback bacon hamburger bresaola ham hock pastrami tenderloin.
 
-Biltong strip steak cow, ham ball tip drumstick kevin pork loin bacon tri-tip flank. Kielbasa jerky filet mignon pig, brisket rump boudin bresaola flank prosciutto strip steak meatball bacon beef ribs. Meatball landjaeger ham hock, capicola chuck short ribs beef sausage brisket prosciutto tongue. Pork chop pork short ribs pancetta beef. Beef pastrami sirloin, strip steak pork chop landjaeger ribeye pancetta. Bacon brisket ham hock short ribs chuck pork chop.
+<!-- Nav Tab Structure -->
+<ul class="nav nav-tabs" role="tablist">
+	<li class="active"><a href="#home" role="tab" data-toggle="tab">General</a></li>
+	<li><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
+	<li><a href="#messages" role="tab" data-toggle="tab">Recent Trades</a></li>
+	<li><a href="#settings" role="tab" data-toggle="tab">Documents</a></li>
+</ul>
 
-Drumstick kielbasa tongue, ribeye pork belly pancetta pork chop salami pork loin sirloin shoulder tri-tip bacon meatball swine. Spare ribs salami frankfurter prosciutto shoulder brisket jowl. Shank bresaola pig, sausage tongue venison strip steak. Shank tongue boudin ball tip.
+</br>
 
-Ham andouille ribeye, beef ribs tongue ball tip strip steak pork jerky kielbasa. Pork chop pastrami hamburger bresaola venison andouille doner. Ground round hamburger bacon venison, brisket jowl turkey sirloin fatback. Leberkas sirloin drumstick ground round ham hock biltong t-bone pork bacon flank sausage. Beef ribs shank doner rump venison meatloaf andouille tenderloin prosciutto sausage flank landjaeger.
+<!-- Tab Contents -->
+<div class="tab-content">
 
-Flank drumstick venison ham bresaola sirloin. Jerky short loin landjaeger, prosciutto chuck boudin t-bone pastrami shank pork belly cow tri-tip short ribs ball tip shoulder. Spare ribs flank shankle short loin filet mignon drumstick ground round. Bresaola strip steak cow doner ball tip tri-tip drumstick tail kevin ham hock ground round. Kevin capicola pancetta strip steak ham swine leberkas prosciutto shankle ground round meatloaf. Short ribs jerky filet mignon strip steak jowl. Andouille spare ribs shankle hamburger rump ham hock.</p>
+	<!-- General Tab -->
+	<div class="tab-pane active" id="home">
+		<div class="col-md-6"> <!-- DESCRIPTIVES -->
+			COUPON </br>
+			MATURITY </br>
+			MOODY'S RATING </br>
+			SP RATING </br>
+			FITCH RATING </br>
+			CALL FEATURE </br>
+		</div>
+		<div class="col-md-6"> <!-- MAP -->
+			<%= image_tag("NYC_GMAP.png", :class => "img-responsive", :alt => "NYC Map") %>
+		</div>
+	</div>
+
+	<!-- Profile Tab -->
+	<div class="tab-pane" id="profile">Biltong strip steak cow, ham ball tip drumstick kevin pork loin bacon tri-tip flank. Kielbasa jerky filet mignon pig, brisket rump boudin bresaola flank prosciutto strip steak meatball bacon beef ribs. Meatball landjaeger ham hock, capicola chuck short ribs beef sausage brisket prosciutto tongue. Pork chop pork short ribs pancetta beef. Beef pastrami sirloin, strip steak pork chop landjaeger ribeye pancetta. Bacon brisket ham hock short ribs chuck pork chop.</div>
+
+	<!-- Recent Trades -->
+	<div class="tab-pane" id="messages">Drumstick kielbasa tongue, ribeye pork belly pancetta pork chop salami pork loin sirloin shoulder tri-tip bacon meatball swine. Spare ribs salami frankfurter prosciutto shoulder brisket jowl. Shank bresaola pig, sausage tongue venison strip steak. Shank tongue boudin ball tip.</div>
+
+	<!-- Documents -->
+	<div class="tab-pane" id="settings">
+		For Official Statements and most recent continuing disclosure documents, please visit: 
+		</br>
+		<%= link_to "EMMA", "http://emma.msrb.org" %>
+	</div>
+
+</div> <!-- Tab Content -->
+
