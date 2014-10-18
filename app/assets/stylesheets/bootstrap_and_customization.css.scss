@@ -2,7 +2,8 @@
 
 $body-bg:   								#ecf0f1;
 $font-family-sans-serif:		'Open Sans', sans-serif;
-// $btn-default-bg:										#f1c40f;
+$btn-default-border:				#ffffff;
+$btn-font-weight:						strong;
 
 @import 'bootstrap';
 
@@ -12,4 +13,17 @@ $font-family-sans-serif:		'Open Sans', sans-serif;
 
 .navbar-brand {
 	font-weight: bold;
+}
+
+.descriptives {
+	font-size: 150%;
+}
+
+.panel-title {
+	font-size: 125%;
+	text-align: center;
+}
+
+.panel-body {
+	text-align: center;
 }
