@@ -12,14 +12,4 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema.define(version: 20141021022014) do
-
-  create_table "cusips", force: true do |t|
-    t.string   "cusip"
-    t.string   "issuer"
-    t.decimal  "coupon"
-    t.date     "maturity"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
 end
