@@ -1,0 +1,25 @@
+<%= form_for :cusip, url: cusips_path do |f| %>
+  <p>
+    <%= f.label :CUSIP %><br>
+    <%= f.text_field :CUSIP %>
+  </p>
+ 
+  <p>
+    <%= f.label :Issuer %><br>
+    <%= f.text_field :Issuer %>
+  </p>
+ 
+  <p>
+    <%= f.label :Coupon %><br>
+    <%= f.text_field :Coupon %>
+  </p>
+
+  <p>
+    <%= f.label :Maturity %><br>
+    <%= f.text_field :Maturity %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

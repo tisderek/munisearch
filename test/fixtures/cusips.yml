@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cusip: MyString
+  issuer: MyString
+  coupon: 9.99
+  maturity: 2014-10-20
+
+two:
+  cusip: MyString
+  issuer: MyString
+  coupon: 9.99
+  maturity: 2014-10-20
