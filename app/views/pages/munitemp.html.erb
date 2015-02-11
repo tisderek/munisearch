@@ -20,39 +20,82 @@
 	<!-- GENERAL TAB -->
 	<div class="tab-pane active" id="home">
 		
-		<!-- DESCRIPTIVES -->
+	<!-- DESCRIPTIVES -->
+
+		<!-- FIRST COLUMN -->
 		<div class="col-md-3 descriptives">
+
+			<!-- COUPON -->
 			<div class="panel panel-default">
   				<div class="panel-heading">
-   					 <h3 class="panel-title">COUPON</h3>
+   					 <h3 class="panel-title">Coupon</h3>
    				</div> <!-- Heading -->
    				<div class="panel-body">
-   					<a class="btn btn-default btn-lg" tabindex="0" href="#" data-toggle="popover" data-placement="bottom" data-trigger="focus" title="Explaining Coupon Payments" data-content="This is where the description of the coupon payment of $xxM bonds will go"> 
+   					<a class="btn btn-default btn-lg" tabindex="0" data-toggle="popover" data-placement="bottom" data-trigger="focus" title="Explaining Coupon Payments" data-content="Typically, your coupon will be paid to you twice per year. Every six months you will be paid 1/2 of your full coupon payment. Typically, this interest income is exempt from Federal taxes. If you purchase bonds in the state of your residence, you could be exempt from State taxes as well."> 
    					<span style="font-size:larger;">
    						5% </span>
    					</a>
    				</div> <!-- Panel Body -->
-   			</div> <!-- Panel -->
-   		</div> <!-- Column -->
+   		</div> <!-- COUPON PANEL -->
 
-   		<div class="col-md-3 descriptives">	
-   			<div class="panel panel-default">
-  				<div class="panel-heading">
-   					 <h3 class="panel-title">MATURITY</h3>
-   				</div> <!-- Heading -->
-   				<div class="panel-body">
-   					<a class="btn btn-default btn-lg" tabindex="0" href="#" data-toggle="popover" data-placement="bottom" data-trigger="focus" title="Explaining Maturity Date" data-content="This is where the description of the final maturity of the bond will go"> 
-   						<span style="font-size:larger;">
-   						Nov 15 2019 </span>
-   					</a>
-   				</div> <!-- Panel Body -->
-   			</div> <!-- Panel -->
-		</div> <!-- Descriptives -->
+	 		<!-- RATING -->
+	 		<div class="panel panel-default">
+					<div class="panel-heading">
+	 					 <h3 class="panel-title">Ratings</h3>
+	 				</div> <!-- Heading -->
+	 				<div class="panel-body">
+	 					<!-- Moody's -->
+	 					<a class="btn btn-default btn-lg" tabindex="0" data-toggle="popover" data-placement="bottom" data-trigger="focus" title="Explaining Moody's Ratings" data-content="In order of credit quality, Moody's rates their bonds on the following scale:
+	 					Aaa, Aa1, Aa2, Aa3, A1, A2, A3, Baa1, Baa2, Baa3, Caa1, Caa2, Caa3, D"> 
+	 					<span style="font-size:larger;">
+	 						Aa2 </span>
+	 					</a>
+	 					<!-- S&P -->
+						<a class="btn btn-default btn-lg" tabindex="0" data-toggle="popover" data-placement="bottom" data-trigger="focus" title="Explaining Standard and Poor's Ratings" data-content="In order of credit quality, Standard and Poor's rates their bonds on the following scale: AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, CCC+, CCC, CCC-, D"> 
+	 					<span style="font-size:larger;">
+	 						AA+ </span>
+	 					</a>
+
+	 				</div> <!-- Panel Body -->
+	 		</div> <!-- RATING PANEL -->
+
+   	</div> <!-- FIRST COLUMN -->
+
+
+   	<!-- SECOND COLUMN -->
+
+   	<div class="col-md-3 descriptives">
+
+   		<!-- MATURITY -->
+   		<div class="panel panel-default">
+  			<div class="panel-heading">
+   				 <h3 class="panel-title">Maturity</h3>
+   			</div> <!-- Heading -->
+   			<div class="panel-body">
+   				<a class="btn btn-default btn-lg" tabindex="0" data-toggle="popover" data-placement="bottom" data-trigger="focus" title="Explaining Maturity Date" data-content="This date represents when your bond will mature. On this date, assuming no default or impairment, you will receive the par value of your investment back, along with your final coupon payment."> 
+   					<span style="font-size:larger;"> Nov 15 2019 </span>
+   				</a> <!-- Button & Contents -->
+   			</div> <!-- Panel Body -->
+   		</div> <!-- Panel -->
+
+   		<!-- CALL DATE -->
+   		<div class="panel panel-default">
+  			<div class="panel-heading">
+   				 <h3 class="panel-title">Call Date</h3>
+   			</div> <!-- Heading -->
+   			<div class="panel-body">
+   				<a class="btn btn-default btn-lg" tabindex="0" data-toggle="popover" data-placement="bottom" data-trigger="focus" title="Explaining the Call Date" data-content="If applicable, this date represents the first time the issuer could purchase your bonds back at a certain price (typically par). It is an optional provision, and is typically only acted upon if there is a chance for a refinancing.">
+   					<span style="font-size:larger;"> N/A </span>
+   				</a> <!-- Button & Contents -->
+   			</div> <!-- Panel Body -->
+   		</div> <!-- Panel -->
+
+		</div> <!-- SECOND COLUMN -->
 
 		<!-- MAP -->
 		<div class="col-md-6">
 			<%= image_tag("NYC_GMAP.png", :class => "img-responsive", :alt => "NYC Map") %>
-		</div> <!-- Map -->
+		</div> <!-- MAP -->
 
 	</div> <!-- General tab -->
 
@@ -72,20 +115,3 @@
 	</div>
 
 </div> <!-- Tab Contents -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
