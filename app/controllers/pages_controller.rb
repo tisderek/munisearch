@@ -8,4 +8,7 @@ class PagesController < ApplicationController
   def munitemp
   end
 
+  def invanalyzer
+ 	end
+
 end
