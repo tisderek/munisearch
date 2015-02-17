@@ -19,12 +19,12 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <%= link_to root_path do %>
-            Home
+          <%= link_to home_path do %>
+            CUSIP Search
           <% end %>
         </li>
+        <li><%= link_to "Muni Analyzer", invanalyzer_path %></li>
         <li><%= link_to "About", about_path %></li>
-        <li><%= link_to "Analyze Your Muni!", invanalyzer_path %></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->

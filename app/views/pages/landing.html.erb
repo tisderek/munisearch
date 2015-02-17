@@ -1,0 +1,75 @@
+<div id="myCarousel" class="carousel slide" data-interval="4000">
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="item active">
+      <%= image_tag("sc_muni.jpg", :class => "img-responsive", :alt => "NYC Map")
+      %>
+      <div class="carousel-caption">
+        <h1>MuniSearch</h1>
+        <p2>Search by CUSIP</p2> </br>
+        <%= link_to "Go!", home_path, class: "btn btn-default", type: "button" %>
+      </div>
+    </div>
+    <div class="item">
+      <%= image_tag("sc_muni.jpg", :class => "img-responsive", :alt => "NYC Map")
+      %>
+      <div class="carousel-caption">
+        <h1>Muni Analyzer</h1>
+        <p>The Step-by-Step Tutorial</p>
+        <%= link_to "Go!", invanalyzer_path, class: "btn btn-default", type: "button" %>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+
+</div>
+
+
+
+<div class="jumbotron">
+  <div class="row">
+    <div class="col-sm-6 col-md-6">
+      <div class="thumbnail">
+        <%= image_tag("sc_muni.jpg", :class => "img-responsive", :alt => "NYC Map") %>
+        <div class="caption">
+          <h3>MuniSearch</h3>
+          <p2>Search by CUSIP</p2>
+            </br>
+            </br>
+          <span>
+          <%= link_to "Go!", home_path, class: "btn btn-primary", type: "button" %>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-6">
+      <div class="thumbnail">
+        <%= image_tag("sc_muni.jpg", :class => "img-responsive", :alt => "NYC Map") %>
+        <div class="caption">
+          <h3>Muni Analyzer</h3>
+          <p2>The Step-by-Step Tutorial</p2>
+            </br>
+            </br>
+          <span>
+          <%= link_to "Go!", invanalyzer_path, class: "btn btn-primary", type: "button" %>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

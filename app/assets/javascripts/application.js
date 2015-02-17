@@ -19,3 +19,7 @@
 $(document).ready(function(){
 	$('a').popover();
 });
+
+$(document).ready(function(){
+    $('.carousel').carousel();
+});
