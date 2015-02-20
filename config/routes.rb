@@ -1,6 +1,5 @@
 Munisearch::Application.routes.draw do
-  root 'pages#landing'
-  get 'home' => "pages#home"
+  root 'pages#home'
   get 'about' => "pages#about"
   get 'munitemp' => "pages#munitemp"
   get 'invanalyzer' => "pages#invanalyzer"
