@@ -1,36 +1,49 @@
 <div class="jumbotron center">
 	<h1>Welcome to the </br> Muni Analyzer!</h1>
-	<p2 class="lead">If you are considering the purchase of a municipal bond, or would like to learn more about one you already own, this tool will be of great help. We will ask you a series of questions about the bond in question and display all of the relevant information about the cashflows, maturity, call date, price and yield.</p2>
-	
-	</br>
-	</br>
+		</br>
+	<p2 class="lead">Are you considering the purchase of a municipal bond? Would you like to learn more about one you already own? This tool will be of great help.</p2>
+		</br>
+		</br>
+	<a href ="#myModal" role="button" class="btn btn-primary btn-lg" data-toggle="modal">Get Started!</a>
+		</br>
+		</br>
+	<p3 class="small"> Know the CUSIP? Automatically load your bond characteristics by using the traditional <%= link_to "Muni Search!", root_path %> </p3>
+</div> <!-- JUMBOTRON -->
 
-	<a class="btn btn-primary btn-lg">
-		Get Started!
-	</a>
+<!-- Modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p>One fine body…</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <button class="btn btn-primary">Save changes</button>
+  </div>
 </div>
 
+
+<!-- START FORM FOR DETAIL INPUT -->
 <div class="center">
-	</br>
-
 	<form class="form-inline">
-	  <div class="form-group">
-	    <label for="par">Par (000's)</label>
-  		<input type="number" class="form-control" id="par" placeholder="1000">
-	  </div>
+	<div class="form-group">
+		<label for="par">Par (000's)</label>
+		<input type="number" class="form-control" id="par" placeholder="1000">
+	</div>
 
-	  <div class="form-group">
-	    <label for="exampleInputEmail2">Email</label>
-	    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
-	  </div>
-  </form>
-	
+	<div class="form-group">
+		<label for="exampleInputEmail2">Email</label>
+		<input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+	</div>
+	</form>
+
 	<p>Coupon and Your Cashflow</p>
-	</br>
-
+		</br>
 	<p>Maturity and Call Dates</p>
-	</br>
-
+		</br>
 	<p>Price and Yield</p>
-	</br>
+		</br>
 </div>

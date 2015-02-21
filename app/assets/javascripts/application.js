@@ -19,3 +19,7 @@
 $(document).ready(function(){
 	$('a').popover();
 });
+
+$('#myModal').on('hidden.bs.modal', function(e){
+
+})
