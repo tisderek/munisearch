@@ -11,7 +11,7 @@
 		<div class-"col-lg-6">
 			<div class="input-group input-group-lg">
 				<span class="input-group-addon">CUSIP</span>
-				<input type="text" class="form-control" placeholder="Search">
+				<input type="text" class="form-control" placeholder="A CUSIP is a unique 9-digit identifier   (i.e. 649034XY2)">
 				<span class="input-group-btn">
 					<%= link_to "Go!", munitemp_path, class: "btn btn-default", type: "button" %>
 				</span>
@@ -19,12 +19,11 @@
 		</div> <!-- /col-lg-6 -->
 	</div>  <!-- /row -->
 	</br> </br>
-	<p1 data-toggle="tooltip" data-placement="top" title="A CUSIP is a 9 digit identifier which is unique to one bond">
+	<!-- <h5 data-toggle="tooltip" data-placement="top" title="A CUSIP is a 9 digit identifier which is unique to a fixed income investment">
 		What is a CUSIP
 			<span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
-	</p1>
-
-	</br> </br>
+	</h5> -->
+	</br>
 	<p2> Don't know the CUSIP? Try our <%= link_to "Muni Analyzer!", invanalyzer_path %> </p2>
 </div> <!-- /jumbotron -->
 
