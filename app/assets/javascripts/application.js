@@ -20,6 +20,10 @@ $(document).ready(function(){
 	$('a').popover();
 });
 
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+
 $('#myModal').on('hidden.bs.modal', function(e){
 
 })
