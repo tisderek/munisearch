@@ -3,6 +3,8 @@ Munisearch::Application.routes.draw do
   get 'about' => "pages#about"
   get 'munitemp' => "pages#munitemp"
   get 'invanalyzer' => "pages#invanalyzer"
+  get 'markup' => "pages#markup"
+  get 'markuptemp' => "pages#markuptemp"
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

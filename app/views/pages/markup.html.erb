@@ -1,0 +1,58 @@
+<!-- Main Display -->
+
+<div class="jumbotron center">
+	<h1>MarkupSearch<small></h1>
+	<p>How much is your broker making on your municipal bond purchases?</p>
+
+<!-- 	Form to enter cusip -->
+<!-- NEED TO CREATE THE ACTUAL FORM TO METHOD: GET CUSIP -->
+
+	<div class-"col-lg-6">
+		<div class="input-group input-group-md">
+			<span class="input-group-addon">CUSIP</span>
+			<input type="text" class="form-control" placeholder="A CUSIP is a unique 9-digit identifier   (i.e. 649034XY2)">
+		</div> <!-- /input group -->
+	</div> <!-- /col-lg-6 -->
+
+</br>
+
+<!-- 	Form to enter date of purchase -->
+
+	<div class-"col-lg-3">
+		<div class="input-group input-group-md">
+			<span class="input-group-addon">Date of purchase</span>
+				<input type="text" class="form-control" placeholder="MM/DD/YYYY">
+		</div> <!-- /input group -->	</div> <!-- /col-lg-3 -->
+
+</br>
+
+<!-- 	Form to enter par amount of purchase -->
+
+	<div class-"col-lg-3">
+		<div class="input-group input-group-md">
+			<span class="input-group-addon">Par Amount Purchased</span>
+				<input type="text" class="form-control" placeholder="In Thousands">
+		</div> <!-- /input group -->
+	</div> <!-- /col-lg-3 -->
+
+</br>
+
+	<div class-"col-lg-3">
+		<div class="input-group input-group-md">
+			<span class="input-group-addon">Price of Purchase</span>
+				<input type="text" class="form-control" placeholder="107.611">
+		</div> <!-- /input group -->
+	</div> <!-- /col-lg-3 -->
+
+
+</br>
+
+	<%= link_to "Go!", markuptemp_path, class: "btn btn-default btn-lg", type: "button" %>
+
+</br>
+</br>
+
+	<p2> Want the full details of your municipal bond? Check out the original <%= link_to "MuniSearch!", root_path %> </p2>
+</div> <!-- /jumbotron -->
+
+
