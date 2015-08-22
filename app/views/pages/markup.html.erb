@@ -7,43 +7,60 @@
 <!-- 	Form to enter cusip -->
 <!-- NEED TO CREATE THE ACTUAL FORM TO METHOD: GET CUSIP -->
 
-	<div class-"col-lg-6">
-		<div class="input-group input-group-md">
-			<span class="input-group-addon">CUSIP</span>
-			<input type="text" class="form-control" placeholder="A CUSIP is a unique 9-digit identifier   (i.e. 649034XY2)">
-		</div> <!-- /input group -->
-	</div> <!-- /col-lg-6 -->
+	<div class="row">
+		<div class="col-md-12">
+			<div class="input-group input-group-md">
+				<span class="input-group-addon">CUSIP</span>
+				<input type="text" class="form-control" placeholder="A CUSIP is a unique 9-digit identifier   (i.e. 649034XY2)">
+			</div> <!-- /input group -->
+		</div> <!-- /col-lg-6 -->
+	</div>
 
-</br>
+	</br>
 
 <!-- 	Form to enter date of purchase -->
 
-	<div class-"col-lg-3">
-		<div class="input-group input-group-md">
-			<span class="input-group-addon">Date of purchase</span>
-				<input type="text" class="form-control" placeholder="MM/DD/YYYY">
-		</div> <!-- /input group -->	</div> <!-- /col-lg-3 -->
+	<div class="row">
+		<div class='col-md-6'>
+			<div class='input-group date' id='datetimepicker1'>
+				<span class="input-group-addon">Date of purchase</span>
+				<input type='text' class="form-control">
+				<span class="input-group-addon">
+					<span class="glyphicon glyphicon-calendar"></span>
+				</span>
+			</div>
+		</div>
 
-</br>
+			<script type="text/javascript">
+				$(function () {
+				$('#datetimepicker1').datetimepicker();
+					Default: 'MMMM YYYY'
+				});
+
+			</script>
 
 <!-- 	Form to enter par amount of purchase -->
-
-	<div class-"col-lg-3">
-		<div class="input-group input-group-md">
-			<span class="input-group-addon">Par Amount Purchased</span>
-				<input type="text" class="form-control" placeholder="In Thousands">
-		</div> <!-- /input group -->
-	</div> <!-- /col-lg-3 -->
+  
+		<div class="col-md-6">
+			<div class="input-group input-group-md">
+				<span class="input-group-addon">Par Amount Purchased</span>
+					<input type="text" class="form-control" placeholder="In Thousands">
+			</div> <!-- /input group -->
+		</div> <!-- /col-lg-3 -->
+	</div>
 
 </br>
 
-	<div class-"col-lg-3">
-		<div class="input-group input-group-md">
-			<span class="input-group-addon">Price of Purchase</span>
-				<input type="text" class="form-control" placeholder="107.611">
-		</div> <!-- /input group -->
-	</div> <!-- /col-lg-3 -->
+<!-- 	Form to enter price of purchase -->
 
+	<div class="row">
+		<div class="col-md-6">
+			<div class="input-group input-group-md">
+				<span class="input-group-addon">Price of Purchase</span>
+					<input type="text" class="form-control" placeholder="107.611">
+			</div> <!-- /input group -->
+		</div> <!-- /col-lg-3 -->
+	</div>
 
 </br>
 
