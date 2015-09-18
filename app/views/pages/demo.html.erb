@@ -1,8 +1,14 @@
 <!-- Issuer Name --> 
+
+<div class="panel panel-info">
+	<div class="panel-heading">
+		Attention: This is a demo. Feel free to click around on each of the bond characteristics below. To learn more about the MuniSearch project, click <%= link_to "here", about_path =%>
+	</div>
+</div>
+
 <div class="page-header">
 	<h1>NEW YORK CITY G.O. SUB SERIES F-1 <small> 64966LQ46 </small></h1>
 </div>
-
 
 <!-- Nav Tab Structure -->
 <ul class="nav nav-tabs" role="tablist">
@@ -119,23 +125,21 @@
 
 	</div> <!-- GENERAL TAB -->
 
-	
-
-	<!-- Profile Tab -->
+	<!-- PROFILE TAB-->
 	<div class="tab-pane" id="profile">Biltong strip steak cow, ham ball tip drumstick kevin pork loin bacon tri-tip flank. Kielbasa jerky filet mignon pig, brisket rump boudin bresaola flank prosciutto strip steak meatball bacon beef ribs. Meatball landjaeger ham hock, capicola chuck short ribs beef sausage brisket prosciutto tongue. Pork chop pork short ribs pancetta beef. Beef pastrami sirloin, strip steak pork chop landjaeger ribeye pancetta. Bacon brisket ham hock short ribs chuck pork chop.</div>
 
-	<!-- Recent Trades -->
+	<!-- RECENT TRADES -->
 	<div class="tab-pane" id="messages">
 		For the most recent trades for this cusip, please visit: 
 			<%= link_to "EMMA", "http://emma.msrb.org/SecurityDetails/TradeActivity/A4323D5B99FC2BDA14A23E21F82ED47CE", class: "btn btn-default", type: "button", :target => "_blank" %>
 			<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
 	</div>
 
-	<!-- Documents -->
+	<!-- DOCUMENTS -->
 	<div class="tab-pane" id="settings">
 		For Official Statements and most recent continuing disclosure documents, please visit:
 			<%= link_to "EMMA", "http://emma.msrb.org/SecurityView/SecurityDetails.aspx?cusip=A4323D5B99FC2BDA14A23E21F82ED47CE", class: "btn btn-default", type: "button", :target => "_blank" %>
 			<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
 	</div>
 
-</div> <!-- Tab Contents
+</div> <!-- Tab Contents -->
