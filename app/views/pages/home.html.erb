@@ -9,22 +9,27 @@
 
 	<div class="row">
 		<div class-"col-lg-6">
-			<div class="input-group input-group-lg">
-				<span class="input-group-addon">CUSIP</span>
-				<input type="text" class="form-control" placeholder="A CUSIP is a unique 9-digit identifier   (i.e. 649034XY2)">
-				<span class="input-group-btn">
-					<%= link_to "Go!", munitemp_path, class: "btn btn-default", type: "button" %>
-				</span>
-			</div> <!-- /input group -->
+
+			<div class="form-group">
+				<div class="input-group input-group-lg">
+					<span class="input-group-addon">CUSIP</span>
+					<input type="text" class="form-control" placeholder="A CUSIP is a unique 9-digit identifier   (i.e. 649034XY2)" id="cusip">
+					<span class="input-group-btn">
+						<%= link_to "Go!", munitemp_path, class: "btn btn-default", type: "button" %>
+					</span>
+				</div> <!-- /input group -->
+			</div>
+
 		</div> <!-- /col-lg-6 -->
 	</div>  <!-- /row -->
-	</br> </br>
-	<!-- <h5 data-toggle="tooltip" data-placement="top" title="A CUSIP is a 9 digit identifier which is unique to a fixed income investment">
-		What is a CUSIP
-			<span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
-	</h5> -->
+	
+	</br> 
 	</br>
-	<p2> Are you curious as to how much your broker just made on your latest municipal bond purchase? Try out our <%= link_to "Mark Up Explorer!", markup_path %> </p2>
+	
+	<%= link_to "Demo", demo_path, class: "btn btn-default", type: "button" %>
+
+	<!-- NOT READY TO SHOW - REMOVE FOR DEMO
+	<p2> Are you curious as to how much your broker just made on your latest municipal bond purchase? Try out our <%= link_to "Mark Up Explorer!", markup_path %> </p2> -->
 </div> <!-- /jumbotron -->
 
 
