@@ -34,14 +34,19 @@ $btn-font-weight:						strong;
 	font-size: 115%;
 }
 
-/* Carousel */
+// Google Maps
 
-.carousel-caption {
-	font-size: 250%;
-	color: #000000;
-	text-align: right;
+.google-maps {
+	position: relative;
+	padding-bottom: 40%;
+	height: 0;
+	overflow:hidden;
 }
 
-.row {
-	text-align: center;
+.google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
 }
