@@ -6,6 +6,9 @@ Munisearch::Application.routes.draw do
   get 'markup' => "pages#markup"
   get 'markuptemp' => "pages#markuptemp"
   get 'demo' => "pages#demo"
+  get 'newissue' => "pages#newissue"
+  get 'issue' => "pages#issue"
+  
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
