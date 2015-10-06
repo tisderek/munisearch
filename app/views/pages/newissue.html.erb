@@ -8,6 +8,12 @@
 <div class="jumbotron center">
 	<h1>New Issues<small></h1>
 	<p>Real-time new issue pricing</p>
+	<% if user_signed_in? %>
+	<!-- nothing -->
+	<% else %>
+		<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary" %>
+		<%= link_to "Log In", new_user_session_path, class: "btn btn-primary" %>
+	<% end %>
 </div> <!-- JUMBOTRON -->
 
 <!-- Nav Tab Structure -->
@@ -85,7 +91,7 @@
 				</br>
 		<div class="well well-sm">
 			<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-			<%= link_to "New York City G.O. Sub Series F-1", issue_path %>
+			<%= link_to "New York State General Obligation 2013-B", issue_path %>
 			<div class= "glyph-right">
 				<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
 				<span class="glyphicon glyphicon-file" aria-hidden="true"></span>
@@ -94,7 +100,7 @@
 		</div>
 		<div class="well well-sm">
 			<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-			<%= link_to "New York City G.O. Sub Series F-1", issue_path %>
+			<%= link_to "New York State General Obligation 2013-B", issue_path %>
 			<div class= "glyph-right">
 				<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
 				<span class="glyphicon glyphicon-file" aria-hidden="true"></span>
@@ -103,7 +109,7 @@
 		</div>
 		<div class="well well-sm">
 			<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-			<%= link_to "New York City G.O. Sub Series F-1", issue_path %>
+			<%= link_to "New York State General Obligation 2013-B", issue_path %>
 			<div class= "glyph-right">
 				<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
 				<span class="glyphicon glyphicon-file" aria-hidden="true"></span>
@@ -112,7 +118,7 @@
 		</div>
 		<div class="well well-sm">
 			<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-			<%= link_to "New York City G.O. Sub Series F-1", issue_path %>
+			<%= link_to "New York State General Obligation 2013-B", issue_path %>
 			<div class= "glyph-right">
 				<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
 				<span class="glyphicon glyphicon-file" aria-hidden="true"></span>
@@ -121,7 +127,7 @@
 		</div>
 		<div class="well well-sm">
 			<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-			<%= link_to "New York City G.O. Sub Series F-1", issue_path %>
+			<%= link_to "New York State General Obligation 2013-B", issue_path %>
 			<div class= "glyph-right">
 				<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
 				<span class="glyphicon glyphicon-file" aria-hidden="true"></span>
@@ -130,7 +136,7 @@
 		</div>
 		<div class="well well-sm">
 			<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-			<%= link_to "New York City G.O. Sub Series F-1", issue_path %>
+			<%= link_to "New York State General Obligation 2013-B", issue_path %>
 			<div class= "glyph-right">
 				<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
 				<span class="glyphicon glyphicon-file" aria-hidden="true"></span>
@@ -144,7 +150,7 @@
 				</br>
 		<div class="well well-sm">
 			<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-			<%= link_to "New York City G.O. Sub Series F-1", issue_path %>
+			<%= link_to "New York City Housing Development Corp (Multi Family Affordable Housing)", issue_path %>
 			<div class= "glyph-right">
 				<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
 				<span class="glyphicon glyphicon-file" aria-hidden="true"></span>
@@ -153,7 +159,7 @@
 		</div>
 		<div class="well well-sm">
 			<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-			<%= link_to "New York City G.O. Sub Series F-1", issue_path %>
+			<%= link_to "New York City Housing Development Corp (Multi Family Affordable Housing)", issue_path %>
 			<div class= "glyph-right">
 				<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
 				<span class="glyphicon glyphicon-file" aria-hidden="true"></span>
@@ -162,7 +168,7 @@
 		</div>
 		<div class="well well-sm">
 			<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-			<%= link_to "New York City G.O. Sub Series F-1", issue_path %>
+			<%= link_to "New York City Housing Development Corp (Multi Family Affordable Housing)", issue_path %>
 			<div class= "glyph-right">
 				<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
 				<span class="glyphicon glyphicon-file" aria-hidden="true"></span>
@@ -171,7 +177,7 @@
 		</div>
 		<div class="well well-sm">
 			<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-			<%= link_to "New York City G.O. Sub Series F-1", issue_path %>
+			<%= link_to "New York City Housing Development Corp (Multi Family Affordable Housing)", issue_path %>
 			<div class= "glyph-right">
 				<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
 				<span class="glyphicon glyphicon-file" aria-hidden="true"></span>
@@ -180,7 +186,7 @@
 		</div>
 		<div class="well well-sm">
 			<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-			<%= link_to "New York City G.O. Sub Series F-1", issue_path %>
+			<%= link_to "New York City Housing Development Corp (Multi Family Affordable Housing)", issue_path %>
 			<div class= "glyph-right">
 				<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
 				<span class="glyphicon glyphicon-file" aria-hidden="true"></span>
@@ -189,7 +195,7 @@
 		</div>
 		<div class="well well-sm">
 			<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-			<%= link_to "New York City G.O. Sub Series F-1", issue_path %>
+			<%= link_to "New York City Housing Development Corp (Multi Family Affordable Housing)", issue_path %>
 			<div class= "glyph-right">
 				<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
 				<span class="glyphicon glyphicon-file" aria-hidden="true"></span>
