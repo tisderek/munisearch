@@ -23,10 +23,16 @@
             MuniSearch
           <% end %>
         </li>
+
  <!--   REMOVE FOR DEMO PURPOSES (NOT READY TO SHOW) <li><%= link_to "MarkupSearch", markup_path %></li> -->
-        <li><%= link_to "Demo", demo_path %></li>
+        
         <li><%= link_to "New Issues", newissue_path %></li>
         <li><%= link_to "About", about_path %></li>
+        <% if user_signed_in? %>
+          <li><%= link_to "Log out", destroy_user_session_path, method: :delete %></li>
+        <% else %>
+          <li><%= link_to "Sign in", new_user_session_path %></li>
+        <% end %>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->
