@@ -9,6 +9,7 @@ Munisearch::Application.routes.draw do
   get 'demo' => "pages#demo"
   get 'newissue' => "pages#newissue"
   get 'issue' => "pages#issue"
+  get 'newdeal' => "pages#newdeal"
   
   
   # The priority is based upon order of creation: first created -> highest priority.
